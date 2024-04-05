@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "image": "https://cdn.mos.cms.futurecdn.net/yDn3ZSXu9eSBxmXQDZ4PCF-1200-80.jpg",
+        "phone_name": "iphone 14 pro max",
+        "brand_name": "Apple",
+        "price": "999.00",
+        "rating": "4.5"
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1591337676887-a217a6970a8a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+        "phone_name": "iphone 13 pro max",
+        "brand_name": "Apple",
+        "price": "299.00",
+        "rating": "4.8"
+    },
+    {
+        "id": 3,
+        "image": "https://cdn.mos.cms.futurecdn.net/zxpmEDdZ8F5w7ucKRPRSjB.jpg",
+        "phone_name": "iphone 12 pro max",
+        "brand_name": "Apple",
+        "price": "899.00",
+        "rating": "3.5"
+    },
+    {
+        "id": 4,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbjMS9R_-aTGCOOtxmlcfvwMCnkmid1xyQZ0mxjh8d7g&s",
+        "phone_name": "iphone 11 pro max",
+        "brand_name": "Apple",
+        "price": "799.00",
+        "rating": "4.1"
+    },
+    {
+        "id": 5,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3WlhPXms8UtdP1KZosiuSoMAYbUHvxaNjEl70SpeKw&s",
+        "phone_name": "iphone 10 pro max",
+        "brand_name": "Apple",
+        "price": "499.00",
+        "rating": "4.9"
+    },
+    {
+        "id": 6,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbKpvL0ovYtR4OU59KoNanTzZnX2f8gjrNm2yeVEzzSw&s",
+        "phone_name": "iphone 9 pro max",
+        "brand_name": "Apple",
+        "price": "799.00",
+        "rating": "2.5"
+    },
+    {
+        "id": 7,
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-15-Plus-(2)-(1)-6945.jpg",
+        "phone_name": "iphone 15 pro max",
+        "brand_name": "Apple",
+        "price": "599.00",
+        "rating": "4.6"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ytimg.com/vi/JQFgW_AN21c/maxresdefault.jpg",
+        "phone_name": "iphone 16 pro max",
+        "brand_name": "Apple",
+        "price": "799.00",
+        "rating": "4.8"
+    },
+    {
+        "id": 9,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNi0Q9hKOo47vzSfMSltksm5acgD5Y6gCDug&s",
+        "phone_name": "iphone 14 pro max",
+        "brand_name": "Apple",
+        "price": "1099.00",
+        "rating": "3.2"
+    },
+    {
+        "id": 10,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlrQZsGfjNuunUqEPlbvD90bEoNftMxFGeOw&s",
+        "phone_name": "iphone 17 pro max",
+        "brand_name": "Apple",
+        "price": "999.00",
+        "rating": "4.2"
+    },
+    {
+        "id": 11,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWKcCjMQHrNKlLtgLOrRCnW6xhLcLWxuuJQ&s",
+        "phone_name": "iphone 18 pro max",
+        "brand_name": "Apple",
+        "price": "899.00",
+        "rating": "3.5"
+    },
+    {
+        "id": 12,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0SGvSS4E1fzrEUuxHmMs8ZdP-pC8lCB5uLQ&s",
+        "phone_name": "iphone 14 pro max",
+        "brand_name": "Apple",
+        "price": "729.00",
+        "rating": "4.3"
+    }
+]
