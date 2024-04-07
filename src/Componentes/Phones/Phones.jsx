@@ -11,7 +11,6 @@ const Phones = ({phones}) => {
                 {
                     phones?.map(phone => <PhoneCard key={phone.id} phone={phone}></PhoneCard>)
                 }
-
             </div>
             
         </div>
