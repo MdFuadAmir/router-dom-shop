@@ -17,7 +17,6 @@ const Phone = () => {
             <div className='w-full h-[30vh] mb-6 bg-lime-200'>
                 <h2 className='mx-auto w-fit text-4xl'>Phone Details</h2>
             </div>
-
             <div className="card card-side bg-base-100 shadow-xl w-2/3 mx-auto">
   <figure><img className='h-[60vh]' src={image} alt="Movie"/></figure>
   <div className="card-body">
@@ -26,7 +25,7 @@ const Phone = () => {
     <h4>Price: {price}</h4>
     <h4>Rating: {rating}</h4>
     <div className="card-actions justify-end">
-      <button className="btn btn-outline w-full">add to Favorite</button>
+      <button className="btn btn-outline w-full">Add to Favorite</button>
     </div>
   </div>
 </div>

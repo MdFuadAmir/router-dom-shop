@@ -16,7 +16,7 @@ const Favorites = () => {
     <h4>Price: fgf</h4>
     <h4>Rating: fgf</h4>
     <div className="card-actions justify-end">
-      <button className="btn btn-outline w-full">add to Favorite</button>
+      <button className="btn btn-outline w-full">Add to Favorite</button>
     </div>
   </div>
 </div>
