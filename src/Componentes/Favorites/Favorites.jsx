@@ -3,7 +3,8 @@
 const Favorites = () => {
     return (
         <div>
-            <div className='my-10'>
+          
+            {/* <div className='my-10'>
             <div className='w-full h-[30vh] mb-6 bg-lime-200'>
                 <h2 className='mx-auto w-fit text-4xl'>Phone Details</h2>
             </div>
@@ -20,7 +21,7 @@ const Favorites = () => {
     </div>
   </div>
 </div>
-        </div>
+        </div> */}
         </div>
     );
 };

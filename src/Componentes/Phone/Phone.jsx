@@ -11,6 +11,11 @@ const Phone = () => {
     },[id,phones])
 
     const {image,rating,brand_name,phone_name,price} = phone; 
+    const handleAddToFavorite = () =>{
+      const favoriteItems = JSON.parse(localStorage.getItem('test'));
+      localStorage.setItem('test', JSON.stringify([{'name': 'fuad'},{'roll': 535977}]));
+      console.log(favoriteItems);
+    }
     
     return (
         <div className='my-10'>
@@ -25,7 +30,7 @@ const Phone = () => {
     <h4>Price: {price}</h4>
     <h4>Rating: {rating}</h4>
     <div className="card-actions justify-end">
-      <button className="btn btn-outline w-full">Add to Favorite</button>
+      <button onClick={handleAddToFavorite} className="btn btn-outline w-full">Add to Favorite</button>
     </div>
   </div>
 </div>
