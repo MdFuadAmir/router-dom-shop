@@ -16,7 +16,7 @@ const Phone = () => {
       localStorage.setItem('test', JSON.stringify([{'name': 'fuad'},{'roll': 535977}]));
       console.log(favoriteItems);
     }
-    
+    // any thing?
     return (
         <div className='my-10'>
             <div className='w-full h-[30vh] mb-6 bg-lime-200'>
