@@ -11,12 +11,18 @@ const Phone = () => {
     },[id,phones])
 
     const {image,rating,brand_name,phone_name,price} = phone; 
+    const addedFavoriteItemInStor = [];
+
     const handleAddToFavorite = () =>{
       const favoriteItems = JSON.parse(localStorage.getItem('test'));
-      localStorage.setItem('test', JSON.stringify([{'name': 'fuad'},{'roll': 535977}]));
-      console.log(favoriteItems);
+
+      if(!favoriteItems){
+        addedFavoriteItemInStor.push(phone);
+        
+      }
+      
+    
     }
-    // any thing?
     return (
         <div className='my-10'>
             <div className='w-full h-[30vh] mb-6 bg-lime-200'>
