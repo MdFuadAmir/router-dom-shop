@@ -10,15 +10,29 @@ const Phone = () => {
         setPhone(findPhones)
     },[id,phones])
 
-    const {image,rating,brand_name,phone_name,price} = phone; 
-    const addedFavoriteItemInStor = [];
-
+    const {image,rating,brand_name,phone_name,price} = phone || {}; 
+    
     const handleAddToFavorite = () =>{
+      const addedFavoriteItemInStor = [];
+
       const favoriteItems = JSON.parse(localStorage.getItem('test'));
 
       if(!favoriteItems){
         addedFavoriteItemInStor.push(phone);
-        
+        localStorage.setItem('favorites', JSON.stringify(addedFavoriteItemInStor));
+        alert("Product add successfully");
+      }
+      else{
+        const ifExist = favoriteItems.find(phonea => phonea.id == id);
+
+        if(!ifExist){
+          addedFavoriteItemInStor.push(...favoriteItems,phone);
+          localStorage.setItem('favorites', JSON.stringify(addedFavoriteItemInStor))
+          alert("Product add successfully");
+        }
+        else{
+          alert("already ache")
+        }
       }
       
     
