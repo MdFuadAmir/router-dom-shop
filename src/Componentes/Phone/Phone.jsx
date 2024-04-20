@@ -15,6 +15,7 @@ const Phone = () => {
     const handleAddToFavorite = () =>{
       const addedFavoriteItemInStor = [];
 
+      
       const favoriteItems = JSON.parse(localStorage.getItem('test'));
 
       if(!favoriteItems){
