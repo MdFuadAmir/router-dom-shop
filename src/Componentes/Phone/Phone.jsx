@@ -17,7 +17,7 @@ const Phone = () => {
 
       
       const favoriteItems = JSON.parse(localStorage.getItem('test'));
-
+// commit 
       if(!favoriteItems){
         addedFavoriteItemInStor.push(phone);
         localStorage.setItem('favorites', JSON.stringify(addedFavoriteItemInStor));
